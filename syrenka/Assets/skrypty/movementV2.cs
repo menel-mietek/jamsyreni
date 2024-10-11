@@ -9,16 +9,17 @@ public class movementV2 : MonoBehaviour
     public LayerMask whatStopsMovement;  // Layer for obstacles like walls
     public LayerMask pushableLayer;  // Layer for pushable objects
     public float tileSize = 1f;    // Size of each tile (1x1 units)
-
+    [SerializeField] Rigidbody2D rb;
     void Start()
     {
         movepoint.parent = null;  // Ensure the movepoint is not parented to the player
         movepoint.position = new Vector3(Mathf.Round(transform.position.x), Mathf.Round(transform.position.y), 0f);  // Snap to grid
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        transform.position = Vector3.MoveTowards(transform.position, movepoint.position, MoveSpeed * Time.deltaTime);
+        //transform.position = Vector3.MoveTowards(transform.position, movepoint.position, MoveSpeed * Time.deltaTime);
+        rb.velocity = getVector() * MoveSpeed; 
 
         if (Vector3.Distance(transform.position, movepoint.position) < 0.05f)
         {
@@ -69,6 +70,12 @@ public class movementV2 : MonoBehaviour
         }
     }
 
+    Vector2 getVector()
+    {
+        if ((movepoint.position - transform.position).magnitude > .04f)
+            return (movepoint.position - transform.position).normalized;
+        else return Vector2.zero;
+    }
     // Method to snap any position to the nearest tile
     Vector3 SnapToTile(Vector3 position)
     {
