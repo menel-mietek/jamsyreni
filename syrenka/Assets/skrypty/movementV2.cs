@@ -10,17 +10,32 @@ public class movementV2 : MonoBehaviour
     public LayerMask pushableLayer;  // Layer for pushable objects
     public float tileSize = 1f;    // Size of each tile (1x1 units)
     [SerializeField] Rigidbody2D rb;
+    private Animator animator;     // Reference to the Animator on a different object
+    private Vector2 lastMoveDirection = Vector2.zero;  // Keep track of the last horizontal movement direction
+
+    public GameObject animatorObject; // Reference to the GameObject holding the Animator
+
     void Start()
     {
         movepoint.parent = null;  // Ensure the movepoint is not parented to the player
         movepoint.position = new Vector3(Mathf.Round(transform.position.x), Mathf.Round(transform.position.y), 0f);  // Snap to grid
+
+        // Get the Animator from the assigned object (the object with the Animator)
+        if (animatorObject != null)
+        {
+            animator = animatorObject.GetComponent<Animator>();
+        }
+        else
+        {
+            Debug.LogError("Animator object is not assigned!");
+        }
     }
 
     void FixedUpdate()
     {
-        //transform.position = Vector3.MoveTowards(transform.position, movepoint.position, MoveSpeed * Time.deltaTime);
-        rb.velocity = getVector() * MoveSpeed; 
+        rb.velocity = getVector() * MoveSpeed;
 
+        // Check if the player is at the movepoint
         if (Vector3.Distance(transform.position, movepoint.position) < 0.05f)
         {
             // Horizontal movement
@@ -35,7 +50,15 @@ public class movementV2 : MonoBehaviour
                 Vector3 moveDirection = new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                 TryMove(moveDirection);
             }
+            else
+            {
+                // If there's no input, player is idle
+                SetIdleAnimation();
+            }
         }
+
+        // Update the IsMoving parameter
+        UpdateIsMoving();
     }
 
     // Method to try and move the player and interact with pushable objects
@@ -67,6 +90,9 @@ public class movementV2 : MonoBehaviour
                 // If no pushable object is in the way, move the player
                 movepoint.position = SnapToTile(newPlayerPosition);
             }
+
+            // Update animation for movement
+            UpdateMovementAnimation(moveDirection);
         }
     }
 
@@ -76,9 +102,54 @@ public class movementV2 : MonoBehaviour
             return (movepoint.position - transform.position).normalized;
         else return Vector2.zero;
     }
+
     // Method to snap any position to the nearest tile
     Vector3 SnapToTile(Vector3 position)
     {
         return new Vector3(Mathf.Round(position.x), Mathf.Round(position.y), 0f);
+    }
+
+    // Update movement animation based on direction
+    void UpdateMovementAnimation(Vector3 moveDirection)
+    {
+        if (animator != null)
+        {
+            // Update the movement parameters in the Animator
+            animator.SetFloat("MoveX", moveDirection.x);
+            animator.SetFloat("MoveY", moveDirection.y);
+
+            // Keep track of the last movement direction (only horizontal)
+            if (moveDirection.x != 0)
+            {
+                lastMoveDirection = new Vector2(moveDirection.x, 0f);
+                animator.SetFloat("LastMoveX", moveDirection.x);
+            }
+
+            // Set moving flag in Animator
+            animator.SetBool("IsMoving", true);
+        }
+    }
+
+    // Handle idle animations based on last horizontal movement direction
+    void SetIdleAnimation()
+    {
+        if (rb.velocity == Vector2.zero && animator != null)
+        {
+            // Stop moving, so IsMoving should be false
+            animator.SetBool("IsMoving", false);
+
+            // Set LastMoveX for idle animation based on the last horizontal direction
+            animator.SetFloat("LastMoveX", lastMoveDirection.x);
+        }
+    }
+
+    // Update the IsMoving parameter based on the player's velocity
+    void UpdateIsMoving()
+    {
+        if (animator != null)
+        {
+            bool isMoving = rb.velocity.magnitude > 0.1f;  // Consider the player moving if velocity is greater than a threshold
+            animator.SetBool("IsMoving", isMoving);
+        }
     }
 }

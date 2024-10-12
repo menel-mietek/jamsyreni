@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7ae6a25981b1614c8e91fa504c489a2
+guid: d19c51fb130f4314087e0b52ae7ae08e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,12 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_0
+      name: syrenka_idle_left_TRUE_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 8
         y: 3
-        width: 121
+        width: 115
         height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -111,19 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06cee5eb7a02dfc40bd962a7815adeab
-      internalID: 694342967
+      spriteID: 1ca2d2aaa6d68cc4191bbf65de351d48
+      internalID: -622845937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_1
+      name: syrenka_idle_left_TRUE_1
       rect:
         serializedVersion: 2
-        x: 133
+        x: 136
         y: 3
-        width: 121
+        width: 115
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,19 +132,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63e099ca350c9944baa627e53dc61a2f
-      internalID: 424101481
+      spriteID: 5d46474e4f4bbd148ac162087e0f3629
+      internalID: 556219090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_2
+      name: syrenka_idle_left_TRUE_2
       rect:
         serializedVersion: 2
-        x: 261
+        x: 264
         y: 3
-        width: 121
+        width: 115
         height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,19 +153,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33706836a147ea94aadc40e2c8577278
-      internalID: 410715051
+      spriteID: 27a85b131bcab9542ab9815f83f556b5
+      internalID: 753246401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_3
+      name: syrenka_idle_left_TRUE_3
       rect:
         serializedVersion: 2
-        x: 389
+        x: 392
         y: 3
-        width: 121
+        width: 115
         height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -174,19 +174,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f3d2eb4c8a62d4eaaf1130b01aa130
-      internalID: -1191454911
+      spriteID: 3659cfe4242d0fa4bb06ebbd586e5326
+      internalID: 295569527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_4
+      name: syrenka_idle_left_TRUE_4
       rect:
         serializedVersion: 2
-        x: 517
+        x: 520
         y: 3
-        width: 121
+        width: 115
         height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -195,19 +195,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac67fb702e8a7d94d840fd5546938185
-      internalID: -1626147283
+      spriteID: 376d800d6fa552e43a4490be90313055
+      internalID: 742923199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_5
+      name: syrenka_idle_left_TRUE_5
       rect:
         serializedVersion: 2
-        x: 645
+        x: 648
         y: 3
-        width: 121
+        width: 115
         height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,19 +216,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5094a5af5299e0e4aaa4bd1335fcf36b
-      internalID: 1878394741
+      spriteID: c3274f5bd8b8bde468fc2d45ee28e89b
+      internalID: -1365072799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_-_W_PRAWO_sprite_sheet_6
+      name: syrenka_idle_left_TRUE_6
       rect:
         serializedVersion: 2
-        x: 773
+        x: 776
         y: 3
-        width: 121
+        width: 115
         height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db2bc307d4188814b9072fb1ae9d8c05
-      internalID: 1905571897
+      spriteID: d73ab58e275633c4391dfaadbb2966b0
+      internalID: 508794935
       vertices: []
       indices: 
       edges: []
@@ -254,13 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IDLE_-_W_PRAWO_sprite_sheet_0: 694342967
-      IDLE_-_W_PRAWO_sprite_sheet_1: 424101481
-      IDLE_-_W_PRAWO_sprite_sheet_2: 410715051
-      IDLE_-_W_PRAWO_sprite_sheet_3: -1191454911
-      IDLE_-_W_PRAWO_sprite_sheet_4: -1626147283
-      IDLE_-_W_PRAWO_sprite_sheet_5: 1878394741
-      IDLE_-_W_PRAWO_sprite_sheet_6: 1905571897
+      syrenka_idle_left_TRUE_0: -622845937
+      syrenka_idle_left_TRUE_1: 556219090
+      syrenka_idle_left_TRUE_2: 753246401
+      syrenka_idle_left_TRUE_3: 295569527
+      syrenka_idle_left_TRUE_4: 742923199
+      syrenka_idle_left_TRUE_5: -1365072799
+      syrenka_idle_left_TRUE_6: 508794935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
