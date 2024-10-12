@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d19c51fb130f4314087e0b52ae7ae08e
+guid: 7d1ff66d95dd2ff49b6315c53e2f0dd7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_0
+      name: azienki_tileset_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 3
-        width: 115
-        height: 121
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca2d2aaa6d68cc4191bbf65de351d48
-      internalID: -622845937
+      spriteID: 81be729006670c545be43431d1b6cd24
+      internalID: -832539916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_1
+      name: azienki_tileset_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 3
-        width: 115
-        height: 120
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d46474e4f4bbd148ac162087e0f3629
-      internalID: 556219090
+      spriteID: f50e178081ef00a418ba83fde079a901
+      internalID: -1407030664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_2
+      name: azienki_tileset_2
       rect:
         serializedVersion: 2
-        x: 264
-        y: 3
-        width: 115
-        height: 119
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a85b131bcab9542ab9815f83f556b5
-      internalID: 753246401
+      spriteID: fc23e7e339f645243892179ca19cffc9
+      internalID: 1031819309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_3
+      name: azienki_tileset_3
       rect:
         serializedVersion: 2
-        x: 392
-        y: 3
-        width: 115
-        height: 118
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3659cfe4242d0fa4bb06ebbd586e5326
-      internalID: 295569527
+      spriteID: 0eadf045ed635984faa5c89bce452334
+      internalID: 1277654041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_4
+      name: azienki_tileset_4
       rect:
         serializedVersion: 2
-        x: 520
-        y: 3
-        width: 115
-        height: 117
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 376d800d6fa552e43a4490be90313055
-      internalID: 742923199
+      spriteID: b2a0a35a32478904087d2d153582113e
+      internalID: 2079481791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_5
+      name: azienki_tileset_5
       rect:
         serializedVersion: 2
-        x: 648
-        y: 3
-        width: 115
-        height: 118
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3274f5bd8b8bde468fc2d45ee28e89b
-      internalID: -1365072799
+      spriteID: 89bd86b9c05aca1469799f5702caf6df
+      internalID: 730181930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: syrenka_idle_left_TRUE_6
+      name: azienki_tileset_6
       rect:
         serializedVersion: 2
-        x: 776
-        y: 3
-        width: 115
-        height: 119
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73ab58e275633c4391dfaadbb2966b0
-      internalID: 508794935
+      spriteID: a12aef27e2ece99469d91b784d992f13
+      internalID: -787241274
       vertices: []
       indices: 
       edges: []
@@ -254,13 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      syrenka_idle_left_TRUE_0: -622845937
-      syrenka_idle_left_TRUE_1: 556219090
-      syrenka_idle_left_TRUE_2: 753246401
-      syrenka_idle_left_TRUE_3: 295569527
-      syrenka_idle_left_TRUE_4: 742923199
-      syrenka_idle_left_TRUE_5: -1365072799
-      syrenka_idle_left_TRUE_6: 508794935
+      azienki_tileset_0: -832539916
+      azienki_tileset_1: -1407030664
+      azienki_tileset_2: 1031819309
+      azienki_tileset_3: 1277654041
+      azienki_tileset_4: 2079481791
+      azienki_tileset_5: 730181930
+      azienki_tileset_6: -787241274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
