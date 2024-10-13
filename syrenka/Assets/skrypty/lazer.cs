@@ -40,7 +40,7 @@ public class lazer : MonoBehaviour
     void ShootLaser(Transform origin, LineRenderer lineRenderer)
     {
         // Define the ray direction (upwards, change if needed for different directions)
-        Vector2 rayDirection = origin.up;
+        Vector2 rayDirection =- origin.up;
 
         // Cast a ray from the laser's origin position in the given direction
         RaycastHit2D hit = Physics2D.Raycast(origin.position, rayDirection, rayDistance, collisionLayers);

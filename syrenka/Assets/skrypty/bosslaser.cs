@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class bosslaser : MonoBehaviour
+
 {
     public float rayDistance = 10f;             // Max distance the laser can shoot
     public LayerMask collisionLayers;           // Layers for obstacles, including the player
@@ -89,11 +90,13 @@ public class bosslaser : MonoBehaviour
                 if (hit.collider.CompareTag("Player"))
                 {
                     Debug.Log("Player hit by laser! Player dies.");
+
+                    // Only destroy the player, not other objects
                     Destroy(hit.collider.gameObject); // Destroy the player object
                 }
                 else
                 {
-                    Debug.Log("Laser hit: " + hit.collider.name);
+                    Debug.Log("Laser hit object: " + hit.collider.name + " with tag: " + hit.collider.tag);
                 }
             }
             else
@@ -104,24 +107,37 @@ public class bosslaser : MonoBehaviour
         }
     }
 
+
     // Method to update the laser indicator
     void UpdateLaserIndicator()
     {
-        // Cast a ray from the object's position to visualize the indicator
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, laserDirection.normalized, rayDistance, collisionLayers);
-
         // Set the start point of the indicator
         indicatorRenderer.SetPosition(0, transform.position);
 
-        if (hit.collider != null)
+        // Initialize the raycast from the laser's position in the specified direction
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, laserDirection.normalized, rayDistance, collisionLayers);
+
+        // If the raycast hits something
+        while (hit.collider != null)
         {
-            // The indicator hits something, so we stop the indicator at that point
-            indicatorRenderer.SetPosition(1, hit.point);
+            // Check if the hit object is the player
+            if (hit.collider.CompareTag("Player"))
+            {
+                // Cast another ray to skip the player
+                // Update the raycast to continue until we hit something other than the player
+                hit = Physics2D.Raycast(hit.point + (Vector2)laserDirection.normalized * 0.01f, laserDirection.normalized, rayDistance, collisionLayers);
+            }
+            else
+            {
+                // If it hits something that's not the player, stop the indicator at that point
+                indicatorRenderer.SetPosition(1, hit.point);
+                return; // Exit the method as we've found a valid target
+            }
         }
-        else
-        {
-            // No hit, indicator goes to the max distance
-            indicatorRenderer.SetPosition(1, (Vector2)transform.position + laserDirection.normalized * rayDistance);
-        }
+
+        // If no valid hit was found, extend the indicator to the maximum distance
+        indicatorRenderer.SetPosition(1, (Vector2)transform.position + laserDirection.normalized * rayDistance);
     }
+
 }
+
