@@ -38,12 +38,24 @@ public class WinCollider : MonoBehaviour
                     canAccessWinArea = false;
                 }
 
-                // If the player has the required keys, allow access
+                // If the player has the required keys, allow access and load the next scene
                 if (canAccessWinArea)
                 {
                     Debug.Log("Player reached the win area!");
-                    // Load the win screen or any other action you want to take
-                    SceneManager.LoadScene("Win", LoadSceneMode.Single);
+
+                    // Get the current scene index
+                    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+                    // Load the next scene if available
+                    if (currentSceneIndex + 1 < SceneManager.sceneCountInBuildSettings)
+                    {
+                        SceneManager.LoadScene(currentSceneIndex + 1, LoadSceneMode.Single);
+                    }
+                    else
+                    {
+                        Debug.Log("This is the last scene. No next scene to load.");
+                        // Optionally, handle what to do if there's no next scene
+                    }
                 }
                 else
                 {
@@ -53,3 +65,4 @@ public class WinCollider : MonoBehaviour
         }
     }
 }
+

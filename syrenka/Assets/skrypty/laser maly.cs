@@ -10,6 +10,7 @@ public class lasermaly : MonoBehaviour
     public Transform laserOrigin;               // Empty GameObject from where the raycast originates
     public Color laserColor = Color.red;        // Color of the laser
     public float laserWidth = 0.1f;             // Width of the laser beam
+    public Vector2 laserDirection = Vector2.up; // Direction of the laser (customizable in Inspector)
 
     void Start()
     {
@@ -28,11 +29,8 @@ public class lasermaly : MonoBehaviour
 
     void ShootLaser()
     {
-        // Define the ray direction (based on the laser origin object's orientation, upward in this case)
-        Vector2 rayDirection = laserOrigin.up;
-
-        // Cast a ray from the empty GameObject's position in the given direction
-        RaycastHit2D hit = Physics2D.Raycast(laserOrigin.position, rayDirection, rayDistance, collisionLayers);
+        // Cast a ray from the empty GameObject's position in the specified direction
+        RaycastHit2D hit = Physics2D.Raycast(laserOrigin.position, laserDirection.normalized, rayDistance, collisionLayers);
 
         // Set the start point of the laser to the empty GameObject's position
         lineRenderer.SetPosition(0, laserOrigin.position);
@@ -56,7 +54,7 @@ public class lasermaly : MonoBehaviour
         else
         {
             // No collision, extend the laser to its max distance
-            lineRenderer.SetPosition(1, (Vector2)laserOrigin.position + rayDirection * rayDistance);
+            lineRenderer.SetPosition(1, (Vector2)laserOrigin.position + laserDirection.normalized * rayDistance);
         }
     }
 }
