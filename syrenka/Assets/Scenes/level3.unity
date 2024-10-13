@@ -236,6 +236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "telewizorek ma\u0142y"
       objectReference: {fileID: 0}
+    - target: {fileID: 6392168750487577792, guid: 438b5c3cee3852440841f27268938dbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3051,8 +3055,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5551334054921095248, guid: 8a826e0896b26b64cb5e82820594d7c2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551334054921095248, guid: 8a826e0896b26b64cb5e82820594d7c2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551334054921095248, guid: 8a826e0896b26b64cb5e82820594d7c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 5551334054921095248, guid: 8a826e0896b26b64cb5e82820594d7c2, type: 3}
       propertyPath: m_LocalPosition.y
