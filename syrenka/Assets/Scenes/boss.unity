@@ -1339,6 +1339,10 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
+      propertyPath: rayDistance
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: indicatorWidth
       value: 0.1
       objectReference: {fileID: 0}
@@ -1614,6 +1618,10 @@ PrefabInstance:
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: laserWidth
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
+      propertyPath: rayDistance
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: indicatorWidth
@@ -4627,6 +4635,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_fontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_margin.w
+      value: -11.248199
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_margin.x
+      value: 37.427414
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_margin.y
+      value: 38.579285
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_margin.z
+      value: 0.39164734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312902940145046256, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4757500413666342428, guid: d4755fb55efb07e4e9ab239bdb027982, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4727,6 +4759,10 @@ PrefabInstance:
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: laserWidth
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
+      propertyPath: rayDistance
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: indicatorWidth
@@ -5078,7 +5114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3590459167490672753, guid: efb5b4c5bcc8341448c8e752c1d74aca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5000001
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: 3590459167490672753, guid: efb5b4c5bcc8341448c8e752c1d74aca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5114,7 +5150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5123793927157379398, guid: efb5b4c5bcc8341448c8e752c1d74aca, type: 3}
       propertyPath: orthographic size
-      value: 3.9789128
+      value: 6.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201423709914543943, guid: efb5b4c5bcc8341448c8e752c1d74aca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7969820997844976823, guid: efb5b4c5bcc8341448c8e752c1d74aca, type: 3}
       propertyPath: m_Name
@@ -5222,6 +5262,10 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
+      propertyPath: rayDistance
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: indicatorWidth
       value: 0.1
       objectReference: {fileID: 0}
@@ -5317,6 +5361,10 @@ PrefabInstance:
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: laserWidth
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
+      propertyPath: rayDistance
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5410704965536742283, guid: d39fbd64eb8e7374b8ad40fbc07f911b, type: 3}
       propertyPath: indicatorWidth
