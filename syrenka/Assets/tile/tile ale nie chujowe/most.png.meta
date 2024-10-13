@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7d1ff66d95dd2ff49b6315c53e2f0dd7
+guid: 8624c2ed1b554c64fa99a48e86683cd1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,11 +97,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: azienki_tileset_0
+      name: most_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -111,119 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81be729006670c545be43431d1b6cd24
-      internalID: -832539916
+      spriteID: 4632b24a740127645b60072b2759dfce
+      internalID: 387697256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azienki_tileset_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f50e178081ef00a418ba83fde079a901
-      internalID: -1407030664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azienki_tileset_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc23e7e339f645243892179ca19cffc9
-      internalID: 1031819309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azienki_tileset_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eadf045ed635984faa5c89bce452334
-      internalID: 1277654041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azienki_tileset_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a0a35a32478904087d2d153582113e
-      internalID: 2079481791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azienki_tileset_5
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89bd86b9c05aca1469799f5702caf6df
-      internalID: 730181930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azienki_tileset_6
+      name: most_1
       rect:
         serializedVersion: 2
         x: 128
@@ -237,8 +132,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12aef27e2ece99469d91b784d992f13
-      internalID: -787241274
+      spriteID: deaedf7b7df41f140a732d45ba55d6d8
+      internalID: 1070754693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: most_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db280cd9456914da03cc2790786d6c
+      internalID: -1870608199
       vertices: []
       indices: 
       edges: []
@@ -254,13 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      azienki_tileset_0: -832539916
-      azienki_tileset_1: -1407030664
-      azienki_tileset_2: 1031819309
-      azienki_tileset_3: 1277654041
-      azienki_tileset_4: 2079481791
-      azienki_tileset_5: 730181930
-      azienki_tileset_6: -787241274
+      most_0: 387697256
+      most_1: 1070754693
+      most_2: -1870608199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

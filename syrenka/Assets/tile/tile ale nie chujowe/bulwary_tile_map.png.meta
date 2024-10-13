@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: d7e22da02e9c62646aaa716562cf4d0b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulwary_tile_map_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6761aac86c70daa459548b0aed0e6215
+      internalID: -710115401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e52a1dab8535ad4c9206a2deac66152
+      internalID: 1722487673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eb92f10626ac74d97d42fdc9f8d659
+      internalID: 440576701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cddcf0cf8af14547b422afab4e36d40
+      internalID: -1193815825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dbb12be846b3e4e8ead62663e37088
+      internalID: 1620551349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996b85c16cd88b84ea3829b0348f8100
+      internalID: 577814070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2738464dc849f146b5ed101613e6d05
+      internalID: 1158603126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912126ccd17f8ce478e5052693accb92
+      internalID: -1222908470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d048a79ad639ae941af760d2332d178c
+      internalID: 1792706402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8709d63b336d468f0834401b529cb
+      internalID: -2013764082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 639
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fbc3317c0e8da4e97097fb6f3e1963
+      internalID: 376275074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160aada3f03f5e46aa7010c8ae7e76a
+      internalID: -437711803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b0a2c0517440e4c990c475eda8ac79
+      internalID: -289589372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c682fc1b8b93804a832528881df6a6d
+      internalID: 995857817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45435e88adf47f04d912a95ec1aee49c
+      internalID: 1436398915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69ecc945334f5b4db5dcdad70da200d
+      internalID: -1382096039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240f7dab73499d840838aefe54693ea9
+      internalID: 847282736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd6f30dfc678b47bdf92c7ce920f95
+      internalID: 664993812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_18
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0782efb97d410be40930fcaa17f56fe6
+      internalID: 251763422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67efee31f999286409a3d1144b10eedd
+      internalID: -443313939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_20
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025cf92be6bba4b43871586f8063e89b
+      internalID: -931531527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 511
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9146d5d6b0c208849912817aaf3fb4c2
+      internalID: -1308668583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb71d0dbbb186a4289913504cab21b3
+      internalID: 1437880365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e3b8151adbe1746b7e7cccd9c0191b
+      internalID: -1256209278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdcf32ca4443bf4a88a7fdfafee5e2e
+      internalID: 1344573054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33da91f589e48040816fd7d19502bbe
+      internalID: -313093861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc22f24c0dbc6340a86c7bedfb1525f
+      internalID: 918885035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828af0c6cb96463499b44b4c5f4207ee
+      internalID: 1612973804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cfa9622a5d7254f9d56974b67485d3
+      internalID: 102444876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af297a46a6c98f44ab4018213c05885d
+      internalID: 1165588889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_30
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9f074eb6f959b4b9783b7921de8ff6
+      internalID: -995370864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_31
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bbd8374c8a4a84b914a3a3fe222368
+      internalID: -1307177768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c2bafc73af0e4eb4f3f10fe90ad98
+      internalID: -1655827494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb1a5f8f24628443813273f4409c427
+      internalID: 2020886579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7135f0e2f9f32345b046a712178adac
+      internalID: -2056568221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e339a4a732d757d4580a7a5f8a503a43
+      internalID: 939842524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f532fd55396ac94796c1317dcd80ef7
+      internalID: 252910154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6886d14cb73ee0e48866c0bdc8bee8c9
+      internalID: -903462423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39ffb1c6a779fc46a4c4d9f7b5aa614
+      internalID: 1746122627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd52c7d3b9790488de44a7478f4bd3
+      internalID: -1701825825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_40
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c0423d41d364c4daa8451a66ee79a6
+      internalID: -1203166509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_41
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097c115c69b6722428a93554b724be1b
+      internalID: 1682446695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_42
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d0f263808c5d946bdf4d1e71b5571a
+      internalID: 163970791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_43
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 255
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12739fbfbae972f4ba3efbf24213b3d6
+      internalID: 1734723973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6a81ce8d2d49e48a277f28cf7fdb0a
+      internalID: -861314696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f477bb683b233ec4592d75ffb408ea62
+      internalID: -1038549398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d233c38aad27f3a4b81af460f4b204fc
+      internalID: 1997216643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ac847f87c39ae45afcc5fd22039bd4
+      internalID: 144925290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21b390d5cedc5c4f9c2c29f5ed5f9bf
+      internalID: 1385839533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcb2104a62c85c4aa3eaebc284491ac
+      internalID: 1935280307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a286c678060789a4b85d7013382c6291
+      internalID: 2023868574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0662eea3ee679344aa1551718677cec6
+      internalID: -1555741692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe43329fa933a5478e6a79f30f4ce0c
+      internalID: -282872917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1cdf81aea86e74aacea89127374523
+      internalID: -848547612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulwary_tile_map_54
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 127
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a9edc794b58664eb967c911a9fa48c
+      internalID: 437970468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bulwary_tile_map_0: -710115401
+      bulwary_tile_map_1: 1722487673
+      bulwary_tile_map_10: 376275074
+      bulwary_tile_map_11: -437711803
+      bulwary_tile_map_12: -289589372
+      bulwary_tile_map_13: 995857817
+      bulwary_tile_map_14: 1436398915
+      bulwary_tile_map_15: -1382096039
+      bulwary_tile_map_16: 847282736
+      bulwary_tile_map_17: 664993812
+      bulwary_tile_map_18: 251763422
+      bulwary_tile_map_19: -443313939
+      bulwary_tile_map_2: 440576701
+      bulwary_tile_map_20: -931531527
+      bulwary_tile_map_21: -1308668583
+      bulwary_tile_map_22: 1437880365
+      bulwary_tile_map_23: -1256209278
+      bulwary_tile_map_24: 1344573054
+      bulwary_tile_map_25: -313093861
+      bulwary_tile_map_26: 918885035
+      bulwary_tile_map_27: 1612973804
+      bulwary_tile_map_28: 102444876
+      bulwary_tile_map_29: 1165588889
+      bulwary_tile_map_3: -1193815825
+      bulwary_tile_map_30: -995370864
+      bulwary_tile_map_31: -1307177768
+      bulwary_tile_map_32: -1655827494
+      bulwary_tile_map_33: 2020886579
+      bulwary_tile_map_34: -2056568221
+      bulwary_tile_map_35: 939842524
+      bulwary_tile_map_36: 252910154
+      bulwary_tile_map_37: -903462423
+      bulwary_tile_map_38: 1746122627
+      bulwary_tile_map_39: -1701825825
+      bulwary_tile_map_4: 1620551349
+      bulwary_tile_map_40: -1203166509
+      bulwary_tile_map_41: 1682446695
+      bulwary_tile_map_42: 163970791
+      bulwary_tile_map_43: 1734723973
+      bulwary_tile_map_44: -861314696
+      bulwary_tile_map_45: -1038549398
+      bulwary_tile_map_46: 1997216643
+      bulwary_tile_map_47: 144925290
+      bulwary_tile_map_48: 1385839533
+      bulwary_tile_map_49: 1935280307
+      bulwary_tile_map_5: 577814070
+      bulwary_tile_map_50: 2023868574
+      bulwary_tile_map_51: -1555741692
+      bulwary_tile_map_52: -282872917
+      bulwary_tile_map_53: -848547612
+      bulwary_tile_map_54: 437970468
+      bulwary_tile_map_6: 1158603126
+      bulwary_tile_map_7: -1222908470
+      bulwary_tile_map_8: 1792706402
+      bulwary_tile_map_9: -2013764082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
